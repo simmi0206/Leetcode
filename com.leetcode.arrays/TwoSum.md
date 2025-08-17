@@ -40,7 +40,7 @@ class Solution {
 }
 ```
 
-# Intuition
+# Intuition (Time 0 ms)
 
 Instead of checking every possible pair (i, j), this code only checks pairs that are separated by exactly i distance in the array.
 So for each i, the loop pairs up elements nums[j] with nums[j-i].
